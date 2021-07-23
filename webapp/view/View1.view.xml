@@ -1,0 +1,22 @@
+<mvc:View xmlns:f="sap.f"
+    controllerName="basecontrollertask.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+					<Button text="Click On Button" press="onGetData"></Button>
+					<Button text="Click on Button2" press="onGetdata2"></Button>
+					<Button text="Click on Button3" press="onData"></Button>
+					<Button text="Blue"  type="Emphasized" press="onChangecolor" id="color2" ></Button>
+					<f:Avatar  src="https://p.kindpng.com/picc/s/78-786207_user-avatar-png-user-avatar-icon-png-transparent.png" displaySize="L" displayShape="Circle"></f:Avatar>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
